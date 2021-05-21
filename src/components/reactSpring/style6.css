@@ -1,0 +1,20 @@
+.c {
+    position: absolute;
+    /* max-width: 500px; */
+    /* max-height: 500px; */
+    width: 50ch;
+    height: 50ch;
+    cursor: pointer;
+    /* will-change: transform, opacity; */
+}
+
+.front,
+.back {
+  background-size: cover;
+}
+.front{
+    background-image: url('https://guidetoiceland.imgix.net/184048/x/0/37-reasons-not-to-visit-iceland-22?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&h=630&ixlib=php-3.0.0&w=1200&s=22c18f87523aacd7d893816e2ae34cc6');    
+}
+.back{
+    background-image: url('https://t1.daumcdn.net/cfile/tistory/99E8C9435C5777A01E');
+}

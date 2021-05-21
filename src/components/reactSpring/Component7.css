@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .wrap{  
+    top: 0;
+    width: 80vmin;
+    height: 100vh;
+    background-color: white;
+    /* border: 1px solid; */
+    box-shadow: -2px 0px 10px rgba(0,0,0, 0.6);
+  }
+  
+  .grandTitle, .item{
+    border-bottom: 1px solid gray;
+  }
+  
+  .grandTitle{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  .item{
+    display: flex;
+    padding: 10px;
+    
+  /*   border: 1px solid black; */
+  }
+  .photoBox{
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  /*   border: 1px solid black; */
+    
+  }
+  .photoBox img{
+    width: 100%;
+    height: 100%;
+  }
+  .content{
+  /*   border: 1px solid black; */
+  
+  }
+  
